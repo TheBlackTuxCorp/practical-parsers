@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape **/*.test.js"
+    "test": "tape **/*.test.js",
+    "example": "node example/log-events.js < example/events.txt"
   },
   "author": "",
   "license": "ISC",

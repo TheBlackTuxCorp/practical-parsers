@@ -1,7 +1,8 @@
 const fs = require('fs');
 
 /**
- * Takes in input string containing rows of events and formats output to an array of event objects.
+ * Takes in input string containing rows of events OR reads file from
+ * standard input and formats output to an array of event objects.
  *
  * Example Input:
  *    1, 2, 4, 5
