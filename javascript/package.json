@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parse": "node index.js"
+    "test": "tape **/*.test.js",
+    "example": "node example/log-events.js < example/events.txt"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
 }
